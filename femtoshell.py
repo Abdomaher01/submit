@@ -9,7 +9,7 @@ while 1:
         sum=1
         for i in range(1,(number+1)):
             sum=i*sum
-        print(sum)
+        print("Result is : "+sum)
         continue
     elif usr_input == "fib":
         fib_num1=1
