@@ -2,7 +2,7 @@ from random import randint, random, randrange
 while 1:
     usr_input=input("abdoshell > ")
     if usr_input == "rand":
-        print(randint(0,10000000000))
+        print(randint(0,100000000000))
         continue
     elif usr_input == "fact":
         number=int(input("Enter a number : "))
